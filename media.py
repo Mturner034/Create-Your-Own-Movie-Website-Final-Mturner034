@@ -36,15 +36,15 @@ class Movie():
           def show_trailer() with PEP 484 type annotations.
 
           Input:
-          self. Also, def show_trailer(self) is an instance method like def __init__ because it is a function
-          that is defined inside a class and is associated with an instance.
+            self. Also, def show_trailer(self) is an instance method like def __init__ because it is a function
+            that is defined inside a class and is associated with an instance.
 
           Behavior: 
-          Function opens web browser with correct URL. The link or correct URL is stored in
-          instance variable trailer_youtube_url.
+            Function opens web browser with correct URL. The link or correct URL is stored in
+            instance variable trailer_youtube_url.
 
           Return:
-          Returns correct movie trailer youtube URL link.
+            Returns correct movie trailer youtube URL link.
 
           """
           webbrowser.open(self.trailer_youtube_url)
