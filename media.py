@@ -4,7 +4,7 @@ class Movie():
         VALID_RATINGS = ["G", "PG", "PG-13", "R"]  
         """class Movie() with PEP 484 type annotations.tuserlevel() with PEP 484 type annotations.
 
-      Input:
+        Input:
           self, movie_title etc: The  inputs are instance variables. In this case, they are variables specifically unique
           to each instance of class Movie(). Those instances being each Movie(i.e The_Matrix, Lord_of_The_Rings etc).
           Self, is the object or instance being created of class Movie().
